@@ -13,7 +13,7 @@ public class Dijkstras{
 	public Dijkstras(Graph graph)
 	{
 		this.nodes = new ArrayList<>(graph.getPoints());
-	    this.edges = new ArrayList<>(graph.getEdges());
+		this.edges = new ArrayList<>(graph.getEdges());
 	}
 	
 	public void execute(Point source)
