@@ -42,10 +42,10 @@ public class Dijkstras{
 		{
 			if(getShortestDistance(neighbor) > (getShortestDistance(node) + getDistance(node, neighbor))) //is possible new distance shorter that the current shortest
 			{
-		        distance.put(neighbor, getShortestDistance(node) + getDistance(node, neighbor));
-		        predecessors.put(neighbor, node);
-		        unsettledNodes.add(neighbor);
-		    }
+		        	distance.put(neighbor, getShortestDistance(node) + getDistance(node, neighbor));
+		        	predecessors.put(neighbor, node);
+		        	unsettledNodes.add(neighbor);
+			}
 		}
 	}
 	
